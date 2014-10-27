@@ -1,0 +1,10 @@
+@mixin border-radius($radius: 5px) { 
+    -webkit-border-radius: $radius; 
+       -moz-border-radius: $radius; 
+            border-radius: $radius;
+            color: $nice-blue; 
+}
+
+@function add-two-numbers($some-number, $another-number){
+  @return $some-number + $another-number;
+}
